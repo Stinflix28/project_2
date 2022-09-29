@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=`, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600,700,300italic,italic&display=swap"
 		rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,regular,500&display=swap" rel="stylesheet" />
@@ -43,16 +43,20 @@
 		</header>
 		<main class="main">
 			<section class="slider">
-				<div class="slider_background"></div>
-				<img src="./img/house_1.png" alt="House slider">
-				<div class="slider__arrows">
-					<img src="./icons/left_arrow.svg" alt="left arrow for slider">
-					<img src="./icons/right_arrow.svg" alt="right arrow for slider">
+				<div class="slider__row">
+					<img src="./img/house_1.png" alt="House 1">
+					<img src="./img/house_2.png" alt="House 1">
+				</div>
+				<div class="slider__controls">
+					<span class="slider__prev">&#10094</span>
+					<span class="slider__count"></span>
+					<span class="slider__next">&#10095</span>
 				</div>
 			</section>
 		</main>
 	</div>
-	<script src="js/main.js"></script>
+	<script src="js/burger.js"></script>
+	<script src="js/slider.js"></script>
 </body>
 
 </html>
